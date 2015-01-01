@@ -3,7 +3,12 @@ Velociratchet Meteor Package
 
 ## Ratchet UI + VelocityJS page transitions
 
-Velociratchet is a Meteor mobile app prototyping tool built on Ratchet, Velocity, Momentum, and Iron Router. 
+Velociratchet is a Meteor mobile app prototyping tool with native-feeling page transitions built on [Ratchet](http://goratchet.com/), [VelocityJS](http://julian.com/research/velocity/), [Momentum](https://github.com/percolatestudio/meteor-momentum), and [Iron Router](http://eventedmind.github.io/iron-router/).
+
+##### Demos
+
+[Velocityratchet Demo Site](http://velociratchet.meteor.com)
+[Velocityratchet Demo Site Source](https://github.com/zendylabs/velociratchet-demo)
 
 ##### Page transitions
 
