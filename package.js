@@ -1,8 +1,8 @@
 Package.describe({
   name: 'zendy:velociratchet',
-  summary: ' /* Fill me in! */ ',
+  summary: 'Velociratchet is a Meteor mobile app prototyping tool built on Ratchet, Velocity, Momentum, and Iron Router.',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/zendylabs/velociratchet-meteor-package.git'
 });
 
 Package.onUse(function(api) {
