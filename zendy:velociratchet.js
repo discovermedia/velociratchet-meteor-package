@@ -23,6 +23,22 @@ Velociratchet.events = {
     'click .navigate-left': function () {
         Session.set('previousPage', Router.current().route.getName());
         Velociratchet.transition = 'left-to-right';
+    },
+    'click .toggle': function( event ){
+        var toggle = $(event.target);
+        if( toggle.hasClass( 'active' ) ){
+            toggle.removeClass( 'active' );
+        }else{
+            toggle.addClass( 'active' );
+        }
+    },
+    'click .toggle-handle': function( event ){
+        var toggle = $(event.target).parent();
+        if( toggle.hasClass( 'active' ) ){
+            toggle.removeClass( 'active' );
+        }else{
+            toggle.addClass( 'active' );
+        }
     }
 
 };

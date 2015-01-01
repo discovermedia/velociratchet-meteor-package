@@ -1,7 +1,7 @@
 Package.describe({
   name: 'zendy:velociratchet',
   summary: 'Ratchet UI with native-looking page transitions for Meteor mobile apps.',
-  version: '1.0.2',
+  version: '1.1.0',
   git: 'https://github.com/zendylabs/velociratchet-meteor-package.git'
 });
 
