@@ -1,5 +1,9 @@
 // Namespace for package
 Velociratchet = {};
+
+// Events for layout template
+// Add the following to your Meteor app:
+// Template.myLayoutTemplateName.events(Velociratchet.events);
 Velociratchet.events = {
     'click': function () {
         Velociratchet.transition = null;
@@ -23,6 +27,9 @@ Velociratchet.events = {
 
 };
 
+// Helpers for layout template
+// Add the following to your Meteor app:
+// Template.myLayoutTemplateName.helpers(Velociratchet.helpers);
 Velociratchet.helpers = {
     transition: function () {
         return function (from, to, element) {
@@ -31,6 +38,7 @@ Velociratchet.helpers = {
     }
 };
 
+// Spacebar helpers
 if( Meteor.isClient ) {
 
     UI.registerHelper('getPreviousPage', function () {
