@@ -7,6 +7,14 @@ Velociratchet is a Meteor mobile app prototyping tool built on Ratchet, Velocity
 
 ## Usage
 
+##### Page transitions
+
+The default page transition is `fade`.
+
+For right-to-left page transitions, add either the `.icon-right-nav` or `.navigate-right` class from the Ratchet UI.
+
+For left-to-right page transitions, add either the `.icon-left-nav` or `.navigate-left` class from the Ratchet UI.
+
 ##### Layout Template
 
 Wrap the Iron Router's `yield` helper with the `momentum` helper:
@@ -39,7 +47,7 @@ To create a back button or link use the Iron Router `pathFor` helper with `getPr
 <a href="{{pathFor getPreviousPage}}">Back</a>
 ```
 
-#### Dynamically adding Ratchet UI's `active` class to links
+##### Dynamically adding Ratchet UI's `active` class to links
 
 To add an `active` class to a UI element, use the `isActive` helper with 2 parameters:
 * menu is the name of the route for the page being linked to
