@@ -15,6 +15,8 @@ Velociratchet is a Meteor mobile app prototyping tool with native-feeling page t
 
 The default page transition is `fade`.
 
+Wrap all of the page content in a div with the `.cotent` class.
+
 For right-to-left page transitions, add either the `.icon-right-nav` or `.navigate-right` class from the Ratchet UI.
 
 For left-to-right page transitions, add either the `.icon-left-nav` or `.navigate-left` class from the Ratchet UI.
