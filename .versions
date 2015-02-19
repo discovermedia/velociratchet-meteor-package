@@ -24,7 +24,7 @@ iron:router@1.0.7
 iron:url@1.0.7
 jquery@1.11.3
 json@1.0.2
-local-test:zendy:velociratchet@1.3.0
+local-test:zendy:velociratchet@1.4.1
 logging@1.0.6
 meteor@1.1.4
 minifiers@1.1.3
@@ -49,4 +49,4 @@ ui@1.0.5
 underscore@1.0.2
 webapp@1.1.6
 webapp-hashing@1.0.2
-zendy:velociratchet@1.3.0
+zendy:velociratchet@1.4.1
