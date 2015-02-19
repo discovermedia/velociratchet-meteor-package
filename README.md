@@ -5,6 +5,10 @@ Velociratchet Meteor Package
 
 Velociratchet is a Meteor mobile app prototyping tool with native-feeling page transitions built on [Ratchet](http://goratchet.com/), [VelocityJS](http://julian.com/research/velocity/), [Momentum](https://github.com/percolatestudio/meteor-momentum), and [Iron Router](http://eventedmind.github.io/iron-router/).
 
+##### BACKWARD COMPATIBILITY ON V2.0.0
+
+The transition names have been updated to `vratchet-fade`, `vratchet-left-to-right`, and `vratchet-right-to-left` to avoid relying too much on Momentum's default transitions. Please update your code accordingly (and sorry for the trouble).
+
 ##### Demos
 
 [Velocityratchet Demo Site](http://velociratchet.meteor.com)
