@@ -54,7 +54,7 @@ Template.myLayoutTemplateName.helpers(Velociratchet.helpers);
 
 To create a back button or link use the Iron Router `pathFor` helper with `getPreviousPage`. Example:
 ```
-<a href="{{pathFor getPreviousPage}}">Back</a>
+<a href="{{getPreviousPage}}">Back</a>
 ```
 
 ##### Dynamically adding Ratchet UI's `active` class to links

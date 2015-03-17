@@ -21,11 +21,11 @@ Velociratchet.events = {
         Velociratchet.transition = 'vratchet-fade';
     },
     'click .icon-right-nav': function () {
-        Velociratchet.addToHistory( Router.current().route.getName() );
+        Velociratchet.addToHistory(Iron.Location.get().path);
         Velociratchet.transition = 'vratchet-right-to-left';
     },
     'click .navigate-right': function () {
-        Velociratchet.addToHistory( Router.current().route.getName() );
+        Velociratchet.addToHistory(Iron.Location.get().path);
         Velociratchet.transition = 'vratchet-right-to-left';
     },
     'click .icon-left-nav': function () {
